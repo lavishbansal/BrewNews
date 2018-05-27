@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/ic_subtitles_black_24dp"
+        android:id="@+id/news"
+        android:title="news"></item>
+
+    <item
+        android:icon="@drawable/ic_magzine"
+        android:id="@+id/magzine"
+        android:title="magzine"></item>
+
+    <item
+        android:icon="@drawable/ic_user"
+        android:id="@+id/user"
+        android:title="user"></item>
+
+</menu>

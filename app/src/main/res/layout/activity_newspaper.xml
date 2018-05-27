@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.lavishbansal.demose2.newspaper">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="691dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/tt"
+                android:layout_width="match_parent"
+                android:layout_height="165dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:background="@android:color/background_light"
+                android:onClick="ttOnClick"
+                app:srcCompat="@drawable/thetribune" />
+
+            <ImageButton
+                android:id="@+id/toi"
+                android:layout_width="match_parent"
+                android:layout_height="163dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/tt"
+                android:background="@android:color/background_light"
+                android:onClick="toiOnClick"
+                app:srcCompat="@drawable/toi" />
+
+            <ImageButton
+                android:id="@+id/tb"
+                android:layout_width="match_parent"
+                android:layout_height="159dp"
+                android:background="@android:color/background_light"
+                android:onClick="dbOnClick"
+                app:srcCompat="@drawable/db1" />
+
+            <ImageButton
+                android:id="@+id/imageButton14"
+                android:layout_width="match_parent"
+                android:layout_height="171dp"
+                android:background="@android:color/background_light"
+                android:onClick="thOnClick"
+                app:srcCompat="@drawable/thf" />
+
+            <ImageButton
+                android:id="@+id/imageButton15"
+                android:layout_width="match_parent"
+                android:layout_height="170dp"
+                android:background="@android:color/background_light"
+                android:onClick="htOnClick"
+                app:srcCompat="@drawable/htf" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottomNavView_Bar"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorAccent"
+        app:menu="@menu/bottom_nav_menu">
+
+    </android.support.design.widget.BottomNavigationView>
+
+</RelativeLayout>
+
